@@ -6,4 +6,4 @@ El propósito del mismo es demostrar de que manera se puede realizar peticiones 
 
 La API utilizada es de [OpenWeather](https://openweather.org).
 
-- [climateapp.vercel.app](https://climateapp.vercel.app)
+- [climateapp-nu.vercel.app](https://climateapp.vercel.app)
