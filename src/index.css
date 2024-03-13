@@ -1,0 +1,84 @@
+:root {
+  --color-950: #252E46;
+  --color-800: #415590;
+  --color-900: #374771;
+  --color-600: #5376bd;
+  --color-200: #cedeef;
+  --color-100: #e3ecf6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-950);
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: auto;
+}
+
+.input {
+  background-color: var(--color-100);
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin: 10px auto;
+  outline-offset: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input:focus {
+  outline: 2px solid var(--color-600);
+}
+
+.search-icon {
+  background-color: var(--color-600);
+  border: none;
+  border-radius: 8px;
+  padding: 13px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-icon:hover {
+  background-color: var(--color-800);
+}
+
+.message {
+  color: var(--color-200);
+}
+
+.watermark {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 10px;
+}
+
+.watermark a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-600);
+  transition: color 0.3s ease;
+}
+
+.watermark a:hover {
+  color: var(--color-200);
+}
